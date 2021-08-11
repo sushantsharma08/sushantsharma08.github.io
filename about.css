@@ -89,7 +89,7 @@ img.background{
 .container1{
     background-color: rgba(25, 25, 26, 0.11);
     height: 445px;
-    width: 1210px;
+    width: 1210px; 
     margin-top: 221px;
     margin-left: 150px;
     z-index: 1;
@@ -297,3 +297,4 @@ footer{
     text-align: center;
     margin-top: 23px;
 }
+   
