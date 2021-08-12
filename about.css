@@ -102,6 +102,7 @@ img.background{
     margin-top: 221px;
     margin-left: 150px;
     z-index: 1;
+    margin-bottom: 50px;
 }
 .container3{
     background-color: rgba(25, 25, 26, 0.11);

@@ -14,14 +14,28 @@ a:hover{
 }
 .container1 {
     transition-property: all;
-    transition-duration: 3s;
+    transition-duration: 2s;
     transition-timing-function: cubic-bezier(.47,.39,.23,1.31);
 }
-.container2:hover{
+.container2:hover {
     background-color: rgba(10, 10, 20, 0.27);
-    border-radius: 30px; 
-}
-.container3:hover{
-    background-color: rgba(10, 10, 20, 0.27); 
     border-radius: 30px;
+    width: 1300px;
+    height: 590px;
+}
+.container2 {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.47,.39,.23,1.31);
+}
+.container3:hover {
+    background-color: rgba(10, 10, 20, 0.27);
+    border-radius: 30px;
+    width: 1300px;
+    height: 490px;
+}
+.container3 {
+    transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(.47,.39,.23,1.31);
 }
