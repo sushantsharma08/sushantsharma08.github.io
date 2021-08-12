@@ -9,8 +9,9 @@ a:hover{
 .container1:hover {
     background-color: rgba(10, 10, 20, 0.27);
     border-radius: 30px;
-    width: 1300px;
-    height: 490px;
+    width: 85%;
+    height: 52vh;
+    margin-bottom: 200px;
 }
 .container1 {
     transition-property: all;
@@ -20,8 +21,10 @@ a:hover{
 .container2:hover {
     background-color: rgba(10, 10, 20, 0.27);
     border-radius: 30px;
-    width: 1300px;
-    height: 590px;
+    margin-bottom: 200px;
+    width: 85%;
+    height: 80vh;
+    margin-bottom: 10px;
 }
 .container2 {
     transition-property: all;
@@ -31,8 +34,9 @@ a:hover{
 .container3:hover {
     background-color: rgba(10, 10, 20, 0.27);
     border-radius: 30px;
-    width: 1300px;
-    height: 490px;
+    width: 85%;
+    height: 52vh;
+    margin-bottom: 200px;
 }
 .container3 {
     transition-property: all;
