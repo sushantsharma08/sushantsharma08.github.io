@@ -86,30 +86,38 @@ img.background{
     border-radius: 84px;
     left: -26px;
 }
+.main-container {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 .container1{
     background-color: rgba(25, 25, 26, 0.11);
     height: 445px;
     width: 1210px; 
-    margin-top: 221px;
-    margin-left: 150px;
+    /* margin-top: 221px;
+    margin-left: 150px;*/
     z-index: 1;
     
 }
 .container2{
     background-color: rgba(25, 25, 26, 0.11);
-    /*height: 445px;*/ 
+    height: 560px; 
     width: 1210px;
-    margin-top: 221px;
+   /* margin-top: 221px;
     margin-left: 150px;
+    margin-bottom: 50px;*/
     z-index: 1;
-    margin-bottom: 50px;
+
 }
 .container3{
     background-color: rgba(25, 25, 26, 0.11);
-    height: 445px;
+    /*height: 445px;*/
     width: 1210px;
-    margin-top: 221px;
-    margin-left: 150px;
+    /* margin-top: 221px;
+    margin-left: 150px;*/
     z-index: 1;
 }
 .about{
@@ -132,6 +140,9 @@ img.background{
     left: 1em;
     margin: -15px;
     z-index: 1;
+}
+.info{
+    margin-bottom: 10px;
 }
 p.about1{
 background-color: rgba(183, 183, 180, 0);
@@ -264,15 +275,16 @@ ul.tools-list{
 }
 .hobbiesbox {
     display: inline-block;
-    position: absolute;
-    top: 2014px;
-    left: 861px;
+    position: relative;
+    bottom: 339px;
+    left: 800px;
     background-color: rgba(128, 128, 128, 0.74);
     border: 5px solid rgba(0, 0, 0, 0.45);
     border-radius: 66px;
     height: 149px;
     width: 127px;
     padding: 30px;
+    
 }
 .hobby-word{
     font-size: 30px;
