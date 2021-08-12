@@ -92,6 +92,8 @@ img.background{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding-top: 207px;
+    padding-bottom: 20px;
 }
 .container1{
     background-color: rgba(25, 25, 26, 0.11);
