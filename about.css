@@ -5,6 +5,9 @@
 header {
   background-color: black;
 }
+/* ul.navig{
+    display: flex;
+} */
 a {
   text-decoration: none;
   color: darkgray;
@@ -73,11 +76,17 @@ li.navig {
   border: 3px solid rgba(30, 30, 31, 0.329);
   border-radius: 16px;
 }
-img {
+img.img-social{
+    padding: 10px;
+    margin-left: -20px;
+    margin-top: 10px;
+}
+img.snt {
   padding: 10px;
   margin-left: -20px;
   margin-top: 10px;
 }
+
 img.background {
   height: 259px;
   position: fixed;
@@ -102,7 +111,7 @@ img.background {
   z-index: 1;
   margin-bottom: 125px;
   width: 80%;
-  height: 55vh;
+  height: 62vh;
 }
 .container2 {
   background-color: rgba(25, 25, 26, 0.11);
