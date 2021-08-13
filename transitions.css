@@ -5,7 +5,17 @@ a:hover{
     color: #EAC78D;
     background-color: rgba(71, 61, 139, 0.27);
 }
-
+.logoimg{
+ animation: rotate 3s ease-in infinite ;
+}
+@keyframes rotate{
+    from{
+        transform: rotatey(0deg);
+    }
+    to{
+        transform: rotatey(360deg);
+    }
+}
 .container1:hover {
     background-color: rgba(10, 10, 20, 0.27);
     border-radius: 30px;
