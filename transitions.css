@@ -7,13 +7,14 @@ a:hover{
 }
 .logoimg{
  animation: rotate 3s ease-in infinite ;
+ width: 35%;
 }
 @keyframes rotate{
     from{
-        transform: rotatey(0deg);
+        transform: rotate(0deg);
     }
     to{
-        transform: rotatey(360deg);
+        transform: rotate(360deg);
     }
 }
 .container1:hover {
