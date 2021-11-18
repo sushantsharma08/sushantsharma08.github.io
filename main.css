@@ -1,0 +1,41 @@
+.mainBody{
+    background-color: rgba(95, 89, 89, 0.253);
+}
+nav{
+    background-color: rgba(67, 64, 70, 0.445);
+    border-radius: 20px;
+    font-size: large;
+} 
+a.header1{
+    font-size: x-large;
+    font-style:normal;
+    margin: 5px ;
+    margin-left: 9px;
+    margin-right: 9px;
+    
+}
+a.header1:hover{
+    /* background-color: rgba(97, 92, 92, 0.445); */
+    color: rgb(0, 0, 0);
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 14px;
+    margin-right: 14px;
+}
+.footercss{
+    background-color: rgba(137, 96, 179, 0.445);
+}
+.AboutClass{
+         font-size: xxx-large;
+}
+.Heading{
+    text-align: center;
+}
+.EducationalQualification{
+    font-size: xxx-large;
+    text-align: center;
+}
+.mainBodyEdu{    
+    background-color: rgba(95, 89, 89, 0.253);
+}
