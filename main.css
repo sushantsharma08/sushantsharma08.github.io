@@ -39,3 +39,9 @@ a.header1:hover{
 .mainBodyEdu{    
     background-color: rgba(95, 89, 89, 0.253);
 }
+.subheading{
+    font-size: xx-large;
+    text-align: center;
+    color: black;
+    padding-bottom: 3rem;
+}
