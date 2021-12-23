@@ -5,3 +5,6 @@
     background: linear-gradient(#000,#b4a2c6);
     border-radius: 6px;
 }
+::-webkit-scrollbar-track{
+    background: #d6d5d5;
+}
