@@ -1,0 +1,111 @@
+
+a.header1
+{
+    width: 20px;
+    height: 28px;
+    text-align: center;
+    width: max-content;
+    box-sizing: border-box;
+    background-size: 400%;
+    border-radius: 30px;
+    z-index: 1;
+}
+a.header1:hover{
+    animation: animate 8s linear infinite;
+}
+@keyframes animate {
+    0%
+    {
+        background-position: 0%;
+    }
+    100%
+    {
+        background-position: 400%;
+    }
+}
+a.header1.home:before{
+    content: 'home..';
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    /* background: #0f0; */
+    /* width: 67px; */
+    width: max-content;
+    height: 40px;
+    /* z-index: 9; */
+    z-index: -1;
+    background: linear-gradient(90deg,#87d4d441,#6365f141,#a55aef41,#6ecb433f,#ead74941, rgba(104, 76, 170, 0.253),#87d4d446 );
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s ;
+}
+
+a.header1.about:before{
+    content: 'about..';
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    /* background: #0f0; */
+    /* width: 15px; */
+    width: max-content;
+    height:40px;
+    /* z-index: 9; */
+    z-index: -1;
+  background: linear-gradient(90deg,#87d4d441,#6365f141,#a55aef41,#6ecb433f,#ead74941, rgba(104, 76, 170, 0.253),#87d4d446 );
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s ;
+}
+
+a.header1.educ:before{
+    content: 'Educational qualifications..';
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    /* background: #0f0; */
+    width: max-content;
+    height: 40px;
+    /* z-index: 9; */
+    z-index: -1;
+   background: linear-gradient(90deg,#87d4d441,#6365f141,#a55aef41,#6ecb433f,#ead74941, rgba(104, 76, 170, 0.253),#87d4d446 );
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s ;
+}
+
+a.header1.skill_hobbies:before{
+    content: 'skills & hobbies..';
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    /* background: #0f0; */
+    width: max-content;
+    height: 40px;
+    /* z-index: 9; */
+    z-index: -1;
+    background: linear-gradient(90deg,#87d4d441,#6365f141,#a55aef41,#6ecb433f,#ead74941, rgba(104, 76, 170, 0.253),#87d4d446 );
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s ;
+}
+a.header1:hover:before{
+    filter: blur(10px);
+    opacity: 1;
+    animation: animate 8s linear infinite;
+    
+}
+a.header1:active{
+    background-color: rgba(36, 34, 34, 0.342);
+}
