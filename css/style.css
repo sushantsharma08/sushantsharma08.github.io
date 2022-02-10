@@ -1,15 +1,15 @@
-*{
+/* *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 body{
-    /* display: flex;
+    display: flex;
     justify-content: center;
-    align-items: center; */
+    align-items: center;
     min-height: 100vh;
-    /* background: #050505; */
-}
+    background: #050505;
+} */
 .cube{
     position: relative;
     height: 30px;
@@ -54,10 +54,4 @@ body{
     height: 30px;
     background: #222;
     transform: rotateX(90deg) translateZ(15px);
-
-
 }
-/* .position{
-    display: flex;
-    align-items: center;
-} */

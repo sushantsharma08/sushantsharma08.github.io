@@ -6,6 +6,9 @@ nav{
     border-radius: 20px;
     font-size: large;
 } 
+.active{
+    background-color: #0000003d;
+}
 a.header1{
     font-size: x-large;
     font-style:normal;
