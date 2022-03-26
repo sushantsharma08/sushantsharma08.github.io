@@ -2,7 +2,7 @@
     width: 10px;
 }
 ::-webkit-scrollbar-thumb{
-    background: linear-gradient(#346b1c,#64b840,#e8d345);
+    background: linear-gradient(30deg,#959396d6,#64b840,#a9ce53);
     border-radius: 6px;
 }
 ::-webkit-scrollbar-track{
