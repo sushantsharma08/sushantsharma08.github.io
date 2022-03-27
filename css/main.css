@@ -8,6 +8,7 @@ nav{
 } 
 .active{
     background-color: #0000003d;
+    color: black;
 }
 a.header1{
     font-size: x-large;

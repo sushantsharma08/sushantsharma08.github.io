@@ -22,7 +22,7 @@ function submitForm(e){
     let message = getElement('message');
 
     saveMessage(name, email, message);
-
+    document.getElementById('contactForm').reset();
     alert('message saved...!');
 }
 
