@@ -118,6 +118,24 @@ a.header1.MyProjects:before{
     opacity: 0;
     transition: 0.5s ;
 }
+a.header1.Contact:before{
+    content: 'Contact me';
+    position: absolute;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    /* background: #0f0; */
+    width: max-content;
+    height: 40px;
+    /* z-index: 9; */
+    z-index: -1;
+    background: linear-gradient(90deg,#87d4d441,#6365f141,#a55aef41,#6ecb433f,#ead74941, rgba(104, 76, 170, 0.253),#87d4d446 );
+    background-size: 400%;
+    border-radius: 30px;
+    opacity: 0;
+    transition: 0.5s ;
+}
 a.header1:hover:before{
     filter: blur(10px);
     opacity: 1;

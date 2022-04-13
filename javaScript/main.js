@@ -23,7 +23,7 @@ function submitForm(e){
 
     saveMessage(name, email, message);
     document.getElementById('contactForm').reset();
-    alert('message saved...!');
+    alert('Message Sent!');
 }
 
 // getting value function
